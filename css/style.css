@@ -22,33 +22,39 @@ header .overlay{
 }
 
 h1 {
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Kaushan Script';
 	font-size: 80px;
 	margin-bottom: 30px;
 }
+.title1 {
+	text-align: center;
+}
 h2 {
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Kaushan Script';
 	font-size: 50px;
 	margin-bottom: 10px;
 }
 
 h3 {
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Kaushan Script';
 	font-size: 30px;
 	margin-bottom: 10px;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 30px;
+	font-family: 'Open Sans';
+		font-size: 20px;
+		text-align: justify;
+		margin-bottom: 10px;
 }
-
 body
 {
     color: rgb(83, 81, 87);
     text-align: left;
 }
-
+video {
+	margin-bottom: 20px;
+}
 #cotainer
 {
     width: 70%;
@@ -57,12 +63,10 @@ body
 	
     margin: 0 auto;
 }
-#post {
-	background: rgb(201, 147, 106);
-
-}
-
 img {
 	max-width: 100%;
 	max-height: 100%;
+}
+.img1 {
+	text-align: center;
 }
